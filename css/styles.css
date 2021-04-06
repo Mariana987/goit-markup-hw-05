@@ -250,30 +250,36 @@ margin-right: 0;
 }
 
 /* Услуги */
-.servise-list{
+.service-list{
   display: flex;
 }
 .service-item {
   background-color: #FFFFFF;
   margin-right: 30px;
+  position: relative;
 }
 .service-item:last-child {
-  width: 370px;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);;
   margin-right: 0;
 }
-.service-link{
+
+ .service-link{
+text-align: center;
+background-color: rgba(47, 48, 58, 0.8);
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
-text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: #fff;;
 text-transform: uppercase;
 text-decoration: none;
-}
+width: 370px;
+height: 70px;
+position: absolute;
+bottom: 0;
+padding-top: 27px;
+margin: 0;
+} 
 
  /* Сотрудники */
 .our-team{
